@@ -2,7 +2,7 @@ const socialLinks = [
   {
     icon: '/email.svg',
     name: 'Email',
-    url: ' `mailto:bryan09figueroa@gmail.com`',
+    url: 'mailto:bryan09figueroa@gmail.com',
   },
   {
     icon: '/github.svg',
@@ -34,6 +34,7 @@ export default function Hero() {
           </p>
         </div>
         <span className="animated-p">Buenos Aires, Argentina</span>
+
         <div className="flex gap-5 rounded-lg">
           {socialLinks.map(({ icon, name, url }) => (
             <a key={name} href={url} target="_blank" rel="noreferrer">
