@@ -1,23 +1,23 @@
 const socialLinks = [
   {
+    icon: '/email.svg',
+    name: 'Email',
+    url: ' `mailto:bryan09figueroa@gmail.com`}',
+  },
+  {
     icon: '/github.svg',
     name: 'GitHub',
-    url: '',
+    url: 'https://github.com/brianfigueroa10',
   },
   {
     icon: '/linkedin.svg',
     name: 'LinkedIn',
-    url: '',
+    url: 'https://www.linkedin.com/in/brian-fig/',
   },
   {
     icon: '/whatsapp.svg',
     name: 'WhatsApp',
-    url: '',
-  },
-  {
-    icon: '/email.svg',
-    name: 'Email',
-    url: '',
+    url: 'https://wa.link/mpo5aa',
   },
 ]
 
