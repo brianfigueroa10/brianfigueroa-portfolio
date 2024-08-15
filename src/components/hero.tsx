@@ -2,7 +2,7 @@ const socialLinks = [
   {
     icon: '/email.svg',
     name: 'Email',
-    url: ' `mailto:bryan09figueroa@gmail.com`}',
+    url: ' `mailto:bryan09figueroa@gmail.com`',
   },
   {
     icon: '/github.svg',
