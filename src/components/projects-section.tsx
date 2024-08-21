@@ -16,7 +16,7 @@ export default function Projects() {
         ))}
       </div>
       <a
-        href="/all-projects"
+        href="/projects"
         className="bg-black p-4 py-2 rounded-md text-xl hover:text-orange-200">
         Ver Más ⮕
       </a>

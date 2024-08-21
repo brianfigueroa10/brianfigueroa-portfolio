@@ -8,7 +8,7 @@ function App() {
     <main className="flex flex-col w-full gap-7 max-w-6xl justify-center items-center mb-24">
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/all-projects" element={<AllProjects />} />
+        <Route path="/projects" element={<AllProjects />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>
