@@ -30,8 +30,11 @@ export default function Hero() {
       <div className="flex justify-between mx-auto flex-col lg:flex-row items-center w-10/12 mt-24 gap-8">
         <div className="flex flex-col gap-5 items-center lg:items-start text-center lg:text-start">
           <div>
-            <h1 className="text-7xl font-bold tracking-tight uppercase text-orange-500 animated-h2 underline underline-offset-8">
-              Brian Figueroa
+            <h1 className="text-7xl font-bold -tracking-wide uppercase  animated-h2 ">
+              Brian
+              <span className="ml-3 text-orange-600 dark:text-orange-500">
+                Figueroa
+              </span>
             </h1>
             <p className="text-3xl mt-5 text-orange-400 font-semibold animated-span">
               Desarrollador Frontend
