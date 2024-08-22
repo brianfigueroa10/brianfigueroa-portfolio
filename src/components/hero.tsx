@@ -1,21 +1,24 @@
+import { Github, Linkedin, Mail } from 'lucide-react'
+import WhatsappIcon from './icons/whatsapp'
+
 const socialLinks = [
   {
-    icon: '/email.svg',
+    icon: <Mail />,
     name: 'Email',
-    url: 'mailto:bryan09figueroa@gmail.com',
+    url: ' `mailto:bryan09figueroa@gmail.com`',
   },
   {
-    icon: '/github.svg',
+    icon: <Github />,
     name: 'GitHub',
     url: 'https://github.com/brianfigueroa10',
   },
   {
-    icon: '/linkedin.svg',
+    icon: <Linkedin />,
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/brian-fig/',
   },
   {
-    icon: '/whatsapp.svg',
+    icon: <WhatsappIcon />,
     name: 'WhatsApp',
     url: 'https://wa.link/mpo5aa',
   },
@@ -27,7 +30,7 @@ export default function Hero() {
       <div className="flex justify-between mx-auto flex-col lg:flex-row items-center w-10/12 mt-24 gap-8">
         <div className="flex flex-col gap-5 items-center lg:items-start text-center lg:text-start">
           <div>
-            <h1 className="text-6xl font-bold uppercase text-orange-500 underline underline-offset-8 animated-h2">
+            <h1 className="text-7xl font-bold tracking-tight uppercase text-orange-500 animated-h2 underline underline-offset-8">
               Brian Figueroa
             </h1>
             <p className="text-3xl mt-5 text-orange-400 font-semibold animated-span">
@@ -36,14 +39,15 @@ export default function Hero() {
           </div>
           <span className="animated-p">Buenos Aires, Argentina</span>
 
-          <div className="flex gap-5 rounded-lg">
+          <div className="flex gap-6 rounded-lg">
             {socialLinks.map(({ icon, name, url }) => (
-              <a key={name} href={url} target="_blank" rel="noreferrer">
-                <img
-                  src={icon}
-                  alt={name}
-                  className="w-8 h-8 rounded-full bg-slate-50"
-                />
+              <a
+                key={name}
+                href={url}
+                target="_blank"
+                rel="noreferrer"
+                className="flex gap-2 items-center justify-center text-center">
+                <span className="w-6 h-6  hover:text-orange-500">{icon}</span>
               </a>
             ))}
           </div>
@@ -51,7 +55,7 @@ export default function Hero() {
         <img
           src="/perfil.webp"
           alt="photo"
-          className="w-11/12 md:w-96 rounded-2xl  shadow-2xl shadow-neutral-900 animated-img"
+          className="w-11/12 md:w-96 rounded-2xl  shadow-2xl shadow-orange-800/60 animated-img"
         />
       </div>
     </section>

@@ -3,7 +3,7 @@ import { projects } from '../components/data'
 
 export default function AllProjects() {
   return (
-    <section className="w-full flex flex-col items-center bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-900 dark:to-orange-800 py-28 ">
+    <section className="w-full flex flex-col items-center  py-28 ">
       <div className=" mx-auto flex flex-col gap-9  w-10/12 justify-between items-center ">
         <h2 className="text-orange-400  text-3xl text-center p-4 font-bold lg:text-6xl uppercase animated-p">
           Proyectos

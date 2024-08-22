@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')!).render(
       <BrowserRouter>
         <App />
       </BrowserRouter>
-      <footer className="py-8 border-t border-orange-900/30">
+      <footer className="py-8 ">
         <p className="text-center text-gray-500 text-base">
           &copy; 2024 - Designed by{' '}
           <a

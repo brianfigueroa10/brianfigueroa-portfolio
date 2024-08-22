@@ -1,8 +1,12 @@
+import { Github, Linkedin, Mail } from 'lucide-react'
+import WhatsappIcon from './icons/whatsapp'
+
 export default function Contact() {
   return (
-    <section className="w-full flex flex-col items-center bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-900 dark:to-orange-800 py-28 ">
+    <section className="w-full flex flex-col items-center relative py-36  ">
+      <div className="absolute top-0 left-0 w-full h-full z-0 image-efect bg-gradient-to-br from-orange-50 to-orange-200 dark:from-orange-900/40 dark:to-orange-800/40 py-36" />
       <div
-        className="flex  flex-col lg:flex-row items-center justify-around w-11/12 lg:w-full gap-8"
+        className="flex  flex-col lg:flex-row items-center justify-around w-11/12 lg:w-full gap-8 z-20"
         id="contact">
         <h2 className="text-orange-400 text-3xl font-bold lg:text-6xl uppercase animated-p">
           Contacto
@@ -15,14 +19,10 @@ export default function Contact() {
                 href={url}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-4 ">
-                <span></span>
-                <img
-                  src={icon}
-                  alt={name}
-                  className="w-8 h-8 rounded-full bg-transparent "
-                />
-                <span>{name}</span>
+                className="flex items-center text-center gap-2 justify-center ">
+                <span className="w-6 h-6">{icon}</span>
+
+                <h4>{name}</h4>
               </a>
             ))}
           </div>
@@ -34,22 +34,22 @@ export default function Contact() {
 
 const socialLinks = [
   {
-    icon: '/email.svg',
+    icon: <Mail />,
     name: 'Email',
     url: ' `mailto:bryan09figueroa@gmail.com`',
   },
   {
-    icon: '/github.svg',
+    icon: <Github />,
     name: 'GitHub',
     url: 'https://github.com/brianfigueroa10',
   },
   {
-    icon: '/linkedin.svg',
+    icon: <Linkedin />,
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/brian-fig/',
   },
   {
-    icon: '/whatsapp.svg',
+    icon: <WhatsappIcon />,
     name: 'WhatsApp',
     url: 'https://wa.link/mpo5aa',
   },

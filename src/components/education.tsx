@@ -4,8 +4,9 @@ import { GraduationCapIcon } from 'lucide-react'
 
 export default function Exducacion() {
   return (
-    <section className="w-full flex flex-col items-center bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-900 dark:to-orange-800 py-28 ">
-      <div className="flex  flex-col lg:flex-row items-center lg:items-start max-lg:gap-8 justify-between w-10/12 gap-12">
+    <section className="w-full flex flex-col items-center  py-36 relative  ">
+      <div className="absolute top-0 left-0 w-full h-full z-0 image-efect bg-gradient-to-br from-orange-50 to-orange-200 dark:from-orange-900/40 dark:to-orange-800/40 py-36" />
+      <div className="flex  flex-col lg:flex-row items-center lg:items-start max-lg:gap-8 justify-between w-10/12 gap-12 z-10">
         <h2 className="text-orange-400 text-3xl font-bold lg:text-6xl uppercase animated-p">
           Educación
         </h2>
