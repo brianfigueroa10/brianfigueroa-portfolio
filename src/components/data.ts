@@ -114,13 +114,23 @@ export const projects = [
     technologies: ['Vue', 'Tailwind', 'Vite'],
   },
   {
+    title: 'TheBox Company',
+    url: 'https://the-box-company.vercel.app/',
+    github: 'https://github.com/brianfigueroa10/the-box-company',
+    image:
+      'https://res.cloudinary.com/dv4ukplcm/image/upload/f_auto,q_auto/v1/proyects/oppuaiailrlitabvfyso',
+    description:
+      'TheBox Company es una landing page de una empresa constructora, diseñada para presentar los servicios de la empresa y mostrar proyectos recientes.',
+    technologies: ['Vue', 'Tailwind', 'Vite'],
+  },
+  {
     title: 'Cripton',
     url: 'https://cripton-app.vercel.app/',
     github: 'https://github.com/brianfigueroa10/cripton-app',
     image: '/assets/projects/cripton.png',
     description:
       'Cripton es una landing page simple dedicada a la presentación de servicios de trading de criptomonedas',
-    technologies: ['Next Js, Tailwind, Framer Motion, CSS', 'Swiper'],
+    technologies: ['Next Js', 'Tailwind', 'Framer', 'Motion', 'CSS', 'Swiper'],
   },
   {
     title: 'Boras Bank',
@@ -130,6 +140,16 @@ export const projects = [
     description:
       'Boras Bank es una landing page para un banco ficticio, creada con Next.js, Tailwind CSS y Framer Motion para una experiencia moderna y animada',
     technologies: ['Next Js', 'Tailwind', 'Framer Motion', 'CSS'],
+  },
+  {
+    title: 'Workers Table',
+    url: 'https://workers-table-eta.vercel.app/',
+    github: 'https://github.com/brianfigueroa10/workers-table',
+    image:
+      'https://res.cloudinary.com/dv4ukplcm/image/upload/f_auto,q_auto/v1/proyects/tghgrmvlarmudqcz9odj',
+    description:
+      'Workers Table es una aplicación de gestión de empleados que permite a los usuarios agregar, editar y eliminar empleados de una tabla utilizando GoogleSheets como base de datos.',
+    technologies: ['Vue', 'Tailwind', 'Vite', 'Google Sheets'],
   },
   {
     title: 'PixelDesk',
@@ -181,7 +201,7 @@ export const experiences = [
 export const education = [
   {
     institution: 'Universidad de Nacional de General Sarmiento',
-    area: 'Ingeniero de Software',
+    area: 'Licenciatura en Sistemas',
     startDate: '2021',
     endDate: '2024',
   },

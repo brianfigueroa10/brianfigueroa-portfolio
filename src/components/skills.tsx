@@ -6,7 +6,7 @@ import { HtmlIcon } from './icons/html'
 import { JavascriptIcon } from './icons/javascript'
 import { MongoIcon } from './icons/mongo'
 import NextJsIcon from './icons/next'
-import NodeIcon from './icons/node'
+import NodejsIcon from './icons/node'
 
 import { ReactIcon } from './icons/react'
 import { SupabaseIcon } from './icons/supabase'
@@ -50,6 +50,6 @@ const icons = [
   { name: 'Github2Icon', component: Github2Icon },
   { name: 'MongoIcon', component: MongoIcon },
   { name: 'SupabaseIcon', component: SupabaseIcon },
-  { name: 'NodeIcon', component: NodeIcon },
+  { name: 'NodeIcon', component: NodejsIcon },
   { name: 'TailwindIcon', component: TailwindIcon },
 ]
