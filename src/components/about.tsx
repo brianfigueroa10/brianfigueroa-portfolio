@@ -4,7 +4,7 @@ export default function About() {
       <div
         className="flex mt-24 flex-col lg:flex-row items-center justify-between w-10/12 mb-16"
         id="about">
-        <p className="font-medium text-balance leading-7 text-center lg:text-start animated-img max-lg:w-11/12 w-fit">
+        <p className="font-medium text-balance leading-7 text-center  animated-img max-lg:w-11/12 w-fit">
           Como desarrollador de software de 27 años, he dedicado los últimos dos
           años al desarrollo frontend, trabajando con diversas tecnologías. Con
           fundamentos sólidos en HTML, CSS y JavaScript, he trabajado con
