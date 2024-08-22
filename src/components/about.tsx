@@ -8,11 +8,11 @@ export default function About() {
           Como desarrollador de software de 27 años, he dedicado los últimos dos
           años al desarrollo frontend, trabajando con diversas tecnologías. Con
           fundamentos sólidos en HTML, CSS y JavaScript, he trabajado con
-          frameworks como React, Next.js y Angular. Como autodidacta apasionado,
-          siempre busco las últimas tendencias y mejores prácticas para
-          mantenerme actualizado. Estoy comprometido a seguir creciendo como
-          desarrollador y a colaborar con otros apasionados por la tecnología y
-          la innovación.
+          frameworks como React, Next.js y Vue entre otros. Como autodidacta
+          apasionado, siempre busco las últimas tendencias y mejores prácticas
+          para mantenerme actualizado. Estoy comprometido a seguir creciendo
+          como desarrollador y a colaborar con otros apasionados por la
+          tecnología y la innovación.
         </p>
       </div>
     </section>
