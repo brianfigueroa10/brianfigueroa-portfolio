@@ -16,22 +16,24 @@ import VueIcon from './icons/vue'
 
 export default function Skills() {
   return (
-    <div className="flex mt-24 flex-col lg:flex-row items-center justify-between gap-10 w-full">
-      <h2 className="text-orange-400 text-3xl lg:text-6xl uppercase animated-p">
-        Skills
-      </h2>
+    <section className="w-full flex flex-col items-center my-24">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start max-lg:gap-8 justify-between w-10/12  gap-12">
+        <h2 className="text-orange-400 text-3xl font-bold lg:text-6xl uppercase animated-p">
+          Skills
+        </h2>
 
-      <div className="flex flex-wrap items-center justify-center gap-7 icon-container max-lg:w-11/12 max-w-md animated-img">
-        {icons.map((icon, index) => {
-          const Icon = icon.component
-          return (
-            <div className="brightness-75 hover:brightness-100">
-              <Icon key={index} />
-            </div>
-          )
-        })}
+        <div className="flex flex-wrap items-center justify-center gap-7 icon-container max-lg:w-11/12 max-w-md animated-img">
+          {icons.map((icon, index) => {
+            const Icon = icon.component
+            return (
+              <div className="">
+                <Icon key={index} />
+              </div>
+            )
+          })}
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 

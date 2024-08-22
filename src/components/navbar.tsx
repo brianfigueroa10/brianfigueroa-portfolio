@@ -1,3 +1,5 @@
+import { ModeToggle } from './ui/mode-toogle'
+
 const links = [
   { name: 'Sobre Mi', href: '#about' },
   { name: 'Projectos', href: '/projects' },
@@ -6,9 +8,9 @@ const links = [
 
 export default function Navbar() {
   return (
-    <header className="flex fixed top-0 w-full items-center justify-around left-0 py-4 backdrop-blur-sm bg-black/50 z-50">
+    <header className="flex fixed top-0 w-full items-center justify-around left-0 py-4 backdrop-blur-sm bg-orange/50 z-50">
       <a href="/">
-        <h2 className="font-mono items-center text-center hover:text-orange-200">
+        <h2 className="font-mono items-center text-center uppercase hover:text-orange-900">
           Brian Figueroa
         </h2>
       </a>
@@ -17,11 +19,12 @@ export default function Navbar() {
           <a
             key={name}
             href={href}
-            className="text-orange-200 hover:text-orange-400">
+            className="text-foreground hover:text-orange-950 dark:hover:text-orange-400 font-semibold">
             {name}
           </a>
         ))}
       </nav>
+      <ModeToggle />
     </header>
   )
 }

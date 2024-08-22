@@ -5,7 +5,7 @@ import NotFound from './pages/not-found'
 
 function App() {
   return (
-    <main className="flex flex-col w-full gap-7 max-w-6xl justify-center items-center mb-24">
+    <main className="flex flex-col w-full gap-7  justify-center items-center">
       <Routes>
         <Route index element={<Home />} />
         <Route path="/projects" element={<AllProjects />} />
