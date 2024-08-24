@@ -30,7 +30,7 @@ export default function Hero() {
       <div className="flex justify-between mx-auto flex-col lg:flex-row items-center w-10/12 mt-24 gap-8">
         <div className="flex flex-col gap-5 items-center lg:items-start text-center lg:text-start">
           <div>
-            <h1 className="text-7xl font-bold -tracking-wide uppercase  animated-h2 ">
+            <h1 className="text-7xl max-[350px]:text-5xl max-[400px]:text-6xl max-md:flex max-md:flex-col font-bold text-wrap -tracking-wide uppercase  animated-h2 ">
               Brian
               <span className="ml-3 text-orange-600 dark:text-orange-500">
                 Figueroa
